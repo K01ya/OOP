@@ -82,10 +82,28 @@ li:hover{
 
 
 h2{
+	
+	font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
     width: 15em;
-    height: fit-content;
 	color: var(--text-color);
-	font-size: 2rem;
+}
+
+p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.rules p{
+	color: #8c8c8c;
+    font-family: ALS Hauss Book;
+    font-size: 18px;
+    line-height: 160%;
+    padding-top: 28px;
 }
 
 h4{
