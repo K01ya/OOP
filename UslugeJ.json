@@ -1,0 +1,37 @@
+[
+    {
+       "usluga1":"Kompjuter",
+       "Igrica1":[
+          {
+             "naziv":"CS:GO", 
+			"godizbacivanja":"2012", 
+			"zanr":"SHOOTER",
+			"cena": "1000din"
+          }
+       ],
+	   "Igrica2":[
+          {
+            "naziv":"LOL", 
+			"godizbacivanja":"2005", 
+			"zanr":"MMORPG",
+			"cena": "0din"
+          }
+       ],
+	   "Igrica3":[
+          {
+             "naziv":"Blender",
+             "verzija":"2.9.8",
+             "format_fajla":"FBX"
+			 "cena":"200e"
+          }
+       ],
+	   "Igrica4":[
+          {
+            "naziv":"MINESWEEPER", 
+			"godizbacivanja":"1989", 
+			"zanr":"CASUAL",
+			"cena": "0din"
+          }
+       ],
+    }
+]
