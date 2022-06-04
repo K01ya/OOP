@@ -1,37 +1,55 @@
-[
-    {
-       "usluga1":"Kompjuter",
-       "Igrica1":[
-          {
-             "naziv":"CS:GO", 
+const UslugeData = [
+    "usluga1":"Kompjuter",
+	[
+		"Igrica1":
+		{
+			"naziv":"CS:GO", 
 			"godizbacivanja":"2012", 
-			"zanr":"SHOOTER",
+			"zanr":["SHOOTER","FPS"],
 			"cena": "1000din"
-          }
-       ],
-	   "Igrica2":[
-          {
-            "naziv":"LOL", 
+		}
+	
+		"Igrica2":
+		{
+			"naziv":"LOL", 
 			"godizbacivanja":"2005", 
-			"zanr":"MMORPG",
+			"zanr":["MMORPG", "	Višekorisnička onlajn borbena arena"],
 			"cena": "0din"
-          }
-       ],
-	   "Igrica3":[
-          {
-             "naziv":"Blender",
-             "verzija":"2.9.8",
-             "format_fajla":"FBX"
-			 "cena":"200e"
-          }
-       ],
-	   "Igrica4":[
-          {
+        }
+		
+	   "Igrica3":
+        {
             "naziv":"MINESWEEPER", 
 			"godizbacivanja":"1989", 
 			"zanr":"CASUAL",
 			"cena": "0din"
-          }
-       ],
-    }
+        }
+    ],
+	
+	"usluga2":"PS4",
+	[
+		"Igrica1":
+		{
+			"naziv":"GOD OF WAR", 
+			"godizbacivanja":"1999", 
+			"zanr":"ACTION",
+			"cena": "1500din"
+		}
+	
+		"Igrica2":
+		{
+			"naziv":"NEED FOR SPEED", 
+			"godizbacivanja":"2001", 
+			"zanr":"RACING",
+			"cena": "2500din"
+        }
+		
+	   "Igrica3":
+        {
+            "naziv":"GTA5", 
+			"godizbacivanja":"2015", 
+			"zanr":"ROLE-PLAY",
+			"cena": "5000din"
+        }
+    ]
 ]
