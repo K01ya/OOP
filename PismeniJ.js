@@ -1,7 +1,7 @@
 let span = document.getElementById('SP');
 let text = document.getElementById('txt');
 
-span.addEventListener('click', (e)=> {
+	span.addEventListener('click', (e)=> {
     let obj = JSON.stringify(data.d[0])
     text.innerHTML = obj;
 })
