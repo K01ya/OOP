@@ -1,0 +1,46 @@
+{
+	"Igrice":[
+		{
+			"naziv":"CS:GO", 
+			"godizbacivanja":"2012", 
+			"zanr":["SHOOTER","FPS"],
+			"cena": "1000din",
+			"proizvodjac":"steam"
+		},
+		{
+			"naziv":"LOL", 
+			"godizbacivanja":"2005", 
+			"zanr":["MMORPG", "	Višekorisnička onlajn borbena arena"],
+			"cena": "0din"
+			"proizvodjac":"riot"
+		},
+		{
+			"naziv":"MINESWEEPER", 
+			"godizbacivanja":"1989", 
+			"zanr":"CASUAL",
+			"cena": "0din"
+			"proizvodjac":"windows"
+		},
+		{
+			"naziv":"GOD OF WAR", 
+			"godizbacivanja":"1999", 
+			"zanr":"ACTION",
+			"cena": "1500din"
+			"proizvodjac":"sony"
+		},
+		{
+			"naziv":"NEED FOR SPEED", 
+			"godizbacivanja":"2001", 
+			"zanr":"RACING",
+			"cena": "2500din"
+			"proizvodjac":"ea"
+        },
+		{
+            "naziv":"GTA5", 
+			"godizbacivanja":"2015", 
+			"zanr":"ROLE-PLAY",
+			"cena": "5000din"
+			"proizvodjac":"ea"
+        }
+	]
+}

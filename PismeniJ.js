@@ -1,13 +1,10 @@
-let span = document.getElementById('SP');
-let text = document.getElementById('txt');
+function text(){
+  document.getElementById("paragraf").innerHTML = `${pismeni.d.map(function(autor){return autor.author })}`;
+}
 
-	span.addEventListener('click', (e)=> {
-    let obj = JSON.stringify(data.d[0])
-    text.innerHTML = obj;
-})
-
-leet data ={ime:"users", 
-d:[
+var pismeni  = 
+{
+	list:"people",d:[
   {
     "id": 1,
     "name": "Leanne Graham",
@@ -122,5 +119,16 @@ d:[
       "catchPhrase": "User-centric fault-tolerant solution",
       "bs": "revolutionize end-to-end systems"
     }
+  ]
   }
-  ]}
+  
+createElements(ljudi);
+
+
+function createElements(ljudi){
+  var DrugiDiv = document.getElementById("drugi");
+  var div1 = document.createElement("div");
+  div1.style = "display: inline";
+  div1.innerHTML = `${pismeni.d.map(function(autor){return ` <p> ${autor.id + " " + autor.quote + " " + autor.author} </p> <br>` }).join('')}`;
+  DrugiDiv.appendChild(div1);
+}
